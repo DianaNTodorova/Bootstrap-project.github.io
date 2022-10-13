@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+nav {
+  background-color: white;
+  border-bottom: 1.5px solid #08376b;
+}
+
+nav .navbar-nav .nav-link.active {
+  color: #08376b;
+}
+
+.container-fluid {
+  width: 80%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container-fluid ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container-fluid ul li {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.offcanvas-header {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.offcanvas-header .btn-close {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+/*# sourceMappingURL=index.css.map */
