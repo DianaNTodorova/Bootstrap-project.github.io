@@ -1,6 +1,6 @@
 nav {
   background-color: white;
-  border-bottom: 1.5px solid #08376b;
+  border-bottom: 2px solid #08376b;
 }
 
 nav .navbar-nav .nav-link.active {
@@ -25,6 +25,10 @@ nav .navbar-nav .nav-link.active {
   padding-left: 2rem;
 }
 
+.container-fluid button:hover::before {
+  color: red;
+}
+
 .offcanvas-header {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -34,5 +38,20 @@ nav .navbar-nav .nav-link.active {
 .offcanvas-header .btn-close {
   -ms-flex-item-align: start;
       align-self: flex-start;
+}
+
+.album.py-5 {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #ffff;
+}
+
+.album.py-5 button {
+  margin-top: 0.75rem;
+}
+
+.album.py-5 img {
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 /*# sourceMappingURL=index.css.map */

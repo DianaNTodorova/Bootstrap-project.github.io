@@ -1,6 +1,6 @@
 nav {
   background-color: rgb(255, 255, 255);
-  border-bottom: 1.5px solid #08376b;
+  border-bottom: 2px solid #08376b;
   .navbar-nav .nav-link.active {
     color: #08376b;
   }
@@ -16,10 +16,25 @@ nav {
       padding-left: 2rem;
     }
   }
+  button:hover::before {
+    color: red;
+  }
 }
 .offcanvas-header {
   justify-content: flex-start;
   .btn-close {
     align-self: flex-start;
+  }
+}
+.album.py-5 {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #ffff;
+  button {
+    margin-top: 0.75rem;
+  }
+  img {
+    border-radius: 0.5rem 0.5rem 0 0;
   }
 }
