@@ -52,6 +52,22 @@ nav .navbar-nav .nav-link.active {
 }
 
 .album.py-5 img {
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.container.text-center {
+  margin-top: 2rem;
+}
+
+.container.text-center img {
+  border-radius: 50%;
+}
+
+.container.text-center img:hover {
+  border-color: #08376b;
+}
+
+.nav-item a:hover {
+  background-color: #33ccff;
 }
 /*# sourceMappingURL=index.css.map */
